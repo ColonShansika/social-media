@@ -1,3 +1,15 @@
-ul{
-  list-style-type:square;
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {  
+    text-align: center;
+    color: #0F0F0F;
+}
+ul {
+    list-style-type: square; 
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
 }
