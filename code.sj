@@ -1,5 +1,5 @@
-const Social MediaDiv = document.getElementById('Social');
-const Alice CoachmanDiv = document.getElementById('Alice');
+const Social MediaDiv = document.getElementById('Social Media');
+const Alice CoachmanDiv = document.getElementById('Alice Coachman');
 
 const infoDiv = document.getElementById('info');
 
