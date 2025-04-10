@@ -1,12 +1,11 @@
 const Social MediaDiv = document.getElementById('Social Media');
 const Alice CoachmanDiv = document.getElementById('Alice Coachman');
-
 const infoDiv = document.getElementById('info');
 
-SocialDiv.addEventListener('click', function() {
-  infoDiv.innerHTML = 'This Is Social';
+Alice CoachmanDiv.addEventListener('click', function() {
+  infoDiv.innerHTML = 'This is Alice Coachman info';
 });
 
-AliceDiv.addEventListener('click', function() {
-  infoDiv.innerHTML = 'The first black woman to win an Olympic gold medal';
+Social MediaDiv.addEventListener('click', function() {
+  infoDiv.innerHTML = 'This is Social Media info';
 });
