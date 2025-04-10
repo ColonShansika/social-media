@@ -18,7 +18,8 @@ document.getElementById("checkButton").addEventListener("click", function() {
   if (age > 16) {
     resultText.innerText = " You cannot drive ";
     resultText.style.color = "red"; // change color
-    resultImage.src = "YOUR_BICYCLE_IMAGE_LINK_HERE";
+    resultImage.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dimensions.com%2Fcollection%2Fbicycles-bikes&psig=AOvVaw0O9KxwiDtrttyxgoyZdP4X&ust=
+    1744391383716000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCC17z6zYwDFQAAAAAdAAAAABAE";
   } else if (age 16 && age 24) {
     resultText.innerText = "You can drive";
     resultText.style.color = "green";
