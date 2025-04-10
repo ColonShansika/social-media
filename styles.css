@@ -14,3 +14,10 @@ ul {
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+
+#resultText {
+  margin-top: 20;
+  font-size: 15;
+  font-weight: 15;
+}
