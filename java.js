@@ -48,11 +48,11 @@ while (j <= 5) {
 }
 
 
-for (let i = 1; i <= 20; i++) {
+for (let k = 1; k <= 20; k++) {
   const p = document.createElement("p");
-  p.textContent = i;
+  p.textContent = k;
 
-  if (i % 2== 0) {
+  if (k % 2== 0) {
     p.style.color = "blue";
   } else {
     p.style.color = "red";
