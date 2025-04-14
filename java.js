@@ -30,10 +30,6 @@ document.getElementById("checkButton").addEventListener("click", function() {
   }
 });
 
-
-
-
-
 const container = document.getElementById("list-container");
 
 for (let i = 1; i <= 5; i++) {
