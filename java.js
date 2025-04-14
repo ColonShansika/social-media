@@ -31,6 +31,10 @@ document.getElementById("checkButton").addEventListener("click", function() {
   }
 });
 
+
+
+
+
 const container = document.getElementById("list-container");
 
 for (let i = 1; i <= 5; i++) {
@@ -50,7 +54,7 @@ while (j <= 5) {
 
 for (let k = 1; k <= 20; k++) {
   const p = document.createElement("p");
-  p.textContent = k;
+  p.textContent = "Red or blue? # " + i;
 
   if (k % 2== 0) {
     p.style.color = "blue";
