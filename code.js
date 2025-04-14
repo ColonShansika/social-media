@@ -30,3 +30,11 @@ document.getElementById("checkButton").addEventListener("click", function() {
     resultImage.src = "YOUR_RENTAL_CAR_IMAGE_LINK_HERE";
   }
 });
+
+const container = document.getElementById("list-container");
+
+for (let i = 1; i <= 5; i++) {
+  const p = document.createElement("p");
+  p.textContent = "This is item #" + i;
+  container.appendChild(p);
+}
